@@ -1,0 +1,213 @@
+/*--------GENERAL---------*/
+body {
+  margin: 0 20%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+}
+body p {
+  
+  font-size: 17px;
+  line-height: 25px;
+}
+/*---------BANNER----------*/
+#banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner img {
+  width: 100%;
+}
+#hola {
+  width: 55%;
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*---------DIV1----------*/
+.arriba {
+  display: flex;
+  flex-direction: row;
+}
+.primerBloque .tarjeta1 {
+  width: 50%;
+  padding-bottom: 15px;
+  padding-right: 5%;
+}
+.slash {
+  color: red;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.primerBloque .tarjeta1 img {
+  width: 100%;
+}
+.primerBloque .tarjeta1 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton {
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.boton a {
+  text-decoration: none;
+  color: white;
+}
+
+.boton a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.textodch {
+  width: 50%;
+}
+.abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.abajo img {
+  width: 45%;
+}
+
+/*------HR-------*/
+
+hr {
+  border-bottom: 1px white;
+  border-color: black;
+  margin-top: 30px;
+}
+
+/*------DIV2-------*/
+.div2 {
+  display: flex;
+  flex-direction: row;
+}
+#profesores {
+  color: red;
+}
+
+#parteIzq {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+}
+#parteIzq img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#parteDch {
+  width: 50%;
+}
+.div2Abajo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+.div2Abajo .img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+}
+.div2Abajo p {
+  width: 50%;
+  margin-top: 0;
+}
+/*------DIV2-------*/
+.div3 {
+  display: flex;
+  flex-direction: row;
+}
+.div3 .compas {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+}
+.compas img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#desafio {
+  width: 50%;
+}
+#desafio a {
+  color: red;
+}
+/*---------TEXTO--------*/
+.un p {
+  text-align: center;
+}
+/*---------RESERVA TU PLAZA--------*/
+.reserva {
+  background-color: rgb(245, 243, 243);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.reserva label {
+  color: red;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+#llamada {
+  
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: blue;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+/*---------MARINA DE EMPRESAS--------*/
+.marina{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.marina img{
+  width: 100%;
+}
+/*---------FOOTER--------*/
+
+.footer{
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  padding: 5px 50px;
+  text-align: center;
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+}
